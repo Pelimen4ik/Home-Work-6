@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    background: azure;
+}
+.main{
+    background-color: white;
+    margin:35px ;
+}
+hr {
+    size: 10cm;
+}
+
+.block {
+    text-align: center;
+}
+
+.block1 {
+    border-style: none;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.text1 img, .text1 {
+    border: solid black 1px;
+    float: right;
+    margin: 15px;
+}
+
+.text2 img, .text2 {
+    border: solid black 1px;
+    float: left;
+    margin: 15px;
+}
+
+.top {
+    display: inline-block;
+    position: relative;
+    border-style: none;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 2px 3px black;
+    text-align: right;
+    right: -1300px;
+    bottom: 0px;
+}
+
+.paragraph {
+    padding: 5px;
+    display: block;
+    height: 50px;
+    width: 120px;
+    border-style: solid;
+    background-color: cornflowerblue;
+}
+
+.lightbox {
+    display: none;
+    position: relative;
+}
+
+.paragraph:target {
+    display: none;
+    color: black;
+    border: solid;
+    border-color: black;
+    background: white;
+}
+
+.lightbox:target {
+    display: contents;
+    border: solid;
+    border-color: black;
+    background: white;
+}
+
+.box {
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+
+.end{
+    display: inline-block;
+    border:none;
+    background-color: bisque;
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+}
+.image img{
+  
+}
